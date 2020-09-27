@@ -107,3 +107,13 @@ C:\Users\alex-\source\repos\Three Sisters Hotel\obj\Debug\netcoreapp3.1\Three Si
 C:\Users\alex-\source\repos\Three Sisters Hotel\obj\Debug\netcoreapp3.1\Three Sisters Hotel.dll
 C:\Users\alex-\source\repos\Three Sisters Hotel\obj\Debug\netcoreapp3.1\Three Sisters Hotel.pdb
 C:\Users\alex-\source\repos\Three Sisters Hotel\obj\Debug\netcoreapp3.1\Three Sisters Hotel.genruntimeconfig.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.csprojAssemblyReference.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.AssemblyInfoInputs.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.AssemblyInfo.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.csproj.CoreCompileInputs.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.RazorAssemblyInfo.cache
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.RazorAssemblyInfo.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.dll
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Three Sisters Hotel.pdb

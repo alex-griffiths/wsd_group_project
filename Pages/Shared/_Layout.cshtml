@@ -40,19 +40,16 @@
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Book a Room</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">My Bookings</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Index">My Bookings</a>
                             </li>
                         }
                         @if (User.IsInRole("administrators"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Home</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Bookings/Index">Manage Bookings</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Manage Bookings</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Statistics</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Admin/StatisticsPage">Statistics</a>
                             </li>
                         }
 

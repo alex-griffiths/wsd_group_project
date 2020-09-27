@@ -342,3 +342,14 @@ C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_pro
 C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Details.cshtml.g.cs
 C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Edit.cshtml.g.cs
 C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Index.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\Create.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\Delete.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\Details.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\Edit.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\Index.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Bookings\Create.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Bookings\Delete.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Bookings\Details.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Bookings\Edit.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Bookings\Index.cshtml.g.cs
+C:\Users\ahli\OneDrive\WSU - Computer Science\2nd Year\Web Sys dev\wsd_group_project\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\StatisticsPage.cshtml.g.cs

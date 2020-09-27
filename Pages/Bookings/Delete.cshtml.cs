@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Three_Sisters_Hotel.Data;
 using Three_Sisters_Hotel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Three_Sisters_Hotel.Pages.Bookings
 {

@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Three_Sisters_Hotel.Data;
 using Three_Sisters_Hotel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Three_Sisters_Hotel.Pages.Bookings
 {
+   
     public class CreateModel : PageModel
     {
         private readonly Three_Sisters_Hotel.Data.ApplicationDbContext _context;

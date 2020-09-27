@@ -25,6 +25,7 @@ namespace Three_Sisters_Hotel.Models
         public string Surname { get; set; }
 
         [NotMapped] // not mapping this property to database, but exist in memory
+        [Display(Name = "Full Name")]
         public string FullName => $"{GivenName} {Surname}";
 
         [Required]

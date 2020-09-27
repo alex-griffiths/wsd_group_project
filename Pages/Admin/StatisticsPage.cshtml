@@ -1,0 +1,64 @@
+﻿@page
+@model Three_Sisters_Hotel.Pages.Admin.StatisticsPageModel
+@{
+    ViewData["Title"] = "Statistics";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Customer Distribution with Respect to Post Codes</h2>
+<br />
+
+<div>
+    @* .table is a Bootstrap class giving table styles *@
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(c => c.CustomerStats[0].PostCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(c => c.CustomerStats[0].PostCount)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.CustomerStats)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostCount)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+
+<h2>Booking distribution with respect to Rooms</h2>
+<br />
+<div>
+    @* .table is a Bootstrap class giving table styles *@
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(r => r.RoomStats[0].RoomID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(r => r.RoomStats[0].RoomBookCount)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.RoomStats)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoomID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoomBookCount)
+                </td>
+            </tr>
+        }
+    </table>
+</div>

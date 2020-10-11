@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahli\\OneDrive\\WSU - Computer Science\\2nd Year\\Web Sys dev\\wsd_group_project\\Three Sisters Hotel.csproj": {}
+    "C:\\Users\\alex-\\source\\repos\\Three Sisters Hotel\\Three Sisters Hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahli\\OneDrive\\WSU - Computer Science\\2nd Year\\Web Sys dev\\wsd_group_project\\Three Sisters Hotel.csproj": {
+    "C:\\Users\\alex-\\source\\repos\\Three Sisters Hotel\\Three Sisters Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahli\\OneDrive\\WSU - Computer Science\\2nd Year\\Web Sys dev\\wsd_group_project\\Three Sisters Hotel.csproj",
+        "projectUniqueName": "C:\\Users\\alex-\\source\\repos\\Three Sisters Hotel\\Three Sisters Hotel.csproj",
         "projectName": "Three Sisters Hotel",
-        "projectPath": "C:\\Users\\ahli\\OneDrive\\WSU - Computer Science\\2nd Year\\Web Sys dev\\wsd_group_project\\Three Sisters Hotel.csproj",
-        "packagesPath": "C:\\Users\\ahli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahli\\OneDrive\\WSU - Computer Science\\2nd Year\\Web Sys dev\\wsd_group_project\\obj\\",
+        "projectPath": "C:\\Users\\alex-\\source\\repos\\Three Sisters Hotel\\Three Sisters Hotel.csproj",
+        "packagesPath": "C:\\Users\\alex-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex-\\source\\repos\\Three Sisters Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ahli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\alex-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -92,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

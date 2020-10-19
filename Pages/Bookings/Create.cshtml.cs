@@ -66,7 +66,7 @@ namespace Three_Sisters_Hotel.Pages.Bookings
                 ViewData["Room"] = theRoom.ID;
                 ViewData["BedCount"] = theRoom.BedCount;
                 ViewData["Nights"] = nights;
-                ViewData["total"] = NewBooking.Cost;
+                ViewData["total"] = String.Format("{0:C}", NewBooking.Cost);
                 ViewData["NewBooking"] = "true";
             }
             else

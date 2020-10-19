@@ -21,6 +21,7 @@ namespace Three_Sisters_Hotel.Models
         public int BedCount { get; set; }
 
         [Range(50,300)]
+        [DisplayFormat(DataFormatString="{0:C}")]
         public float Price { get; set; }
 
         public ICollection<Booking> TheBookings { get; set; }

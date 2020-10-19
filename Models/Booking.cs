@@ -30,6 +30,7 @@ namespace Three_Sisters_Hotel.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CheckOut { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:C}")]
         public float Cost { get; set; }
 
         //Navigational Properties

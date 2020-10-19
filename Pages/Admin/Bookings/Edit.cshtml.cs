@@ -40,8 +40,8 @@ namespace Three_Sisters_Hotel.Pages.Admin.Bookings
             {
                 return NotFound();
             }
-           ViewData["CustomerEmail"] = new SelectList(_context.Customer, "Email", "Email");
-           ViewData["RoomID"] = new SelectList(_context.Room, "ID", "Level");
+           ViewData["CustomerEmail"] = new SelectList(_context.Customer, "Email", "FullName");
+           ViewData["RoomID"] = new SelectList(_context.Room, "ID", "ID");
             return Page();
         }
 

@@ -220,8 +220,8 @@ namespace Three_Sisters_Hotel.Data.Migrations
                     b.Property<DateTime>("CheckOut")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Cost")
-                        .HasColumnType("TEXT");
+                    b.Property<float>("Cost")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("CustomerEmail")
                         .HasColumnType("TEXT");
@@ -271,16 +271,14 @@ namespace Three_Sisters_Hotel.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("BedCount")
-                        .HasColumnType("INTEGER")
-                        .HasMaxLength(1);
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Level")
                         .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(1);
-
-                    b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("REAL");
 
                     b.HasKey("ID");
 

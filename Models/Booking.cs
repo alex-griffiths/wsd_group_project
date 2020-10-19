@@ -12,6 +12,7 @@ namespace Three_Sisters_Hotel.Models
         [Key, Required]
         public int ID { get; set; }
 
+        [Display(Name = "Room ID")]
         public int RoomID { get; set; }
 
         [DataType(DataType.EmailAddress)]
@@ -29,7 +30,7 @@ namespace Three_Sisters_Hotel.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CheckOut { get; set; }
 
-        public decimal Cost { get; set; }
+        public float Cost { get; set; }
 
         //Navigational Properties
         public Room TheRoom { get; set; }

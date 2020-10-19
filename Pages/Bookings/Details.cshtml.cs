@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Three_Sisters_Hotel.Pages.Bookings
 {
+    [Authorize(Roles = "administrators, customer")]
     public class DetailsModel : PageModel
     {
         private readonly Three_Sisters_Hotel.Data.ApplicationDbContext _context;

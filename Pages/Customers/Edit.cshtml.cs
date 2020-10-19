@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,6 +12,7 @@ using Three_Sisters_Hotel.Models;
 
 namespace Three_Sisters_Hotel.Pages.Customers
 {
+    [Authorize(Roles = "administrators")]
     public class EditModel : PageModel
     {
         private readonly Three_Sisters_Hotel.Data.ApplicationDbContext _context;

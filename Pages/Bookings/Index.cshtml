@@ -1,5 +1,5 @@
 ﻿@page
-@model Three_Sisters_Hotel.Pages.Admin.Bookings.IndexModel
+@model Three_Sisters_Hotel.Pages.Bookings.IndexModel
 
 @{
     ViewData["Title"] = "Index";
@@ -14,26 +14,39 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Booking[0].CheckIn)
+                @Html.DisplayNameFor(model => model.Booking[0].TheRoom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Booking[0].TheCustomer.FullName)
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
+                    @Html.DisplayNameFor(model => model.Booking[0].CheckIn)
+                </a>
+                
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Booking[0].CheckOut)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Booking[0].Cost)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Booking[0].TheRoom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Booking[0].TheCustomer)
+                <a asp-page="./Index" asp-route-sortOrder="@Model.PriceSort">
+                    @Html.DisplayNameFor(model => model.Booking[0].Cost)
+                </a>
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model.Booking) {
+    if (item.CustomerEmail == (string)ViewData["userEmail"])
+    {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheRoom.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheCustomer.FullName)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CheckIn)
             </td>
@@ -43,18 +56,8 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Cost)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TheRoom.Level)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TheCustomer.Email)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
         </tr>
+    }
 }
     </tbody>
 </table>
